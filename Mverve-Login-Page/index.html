@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/homepage.css">
+</head>
+<body>
+    <div id="home">
+        <div id="logo">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+        <div id="content">
+            <div>
+                <h1 id="head-tag" style="color:#4C3E79">Create an Account</h1>
+            </div>
+            <div id="firstline">
+                <form >
+                    <lable>First Name</lable><br>
+                    <input type="text" id="firstname" placeholder="First Name">
+                </form>
+                <form style="margin-left:30px">
+                    <lable>Last Name</lable><br>
+                    <input type="text" id="lastname" placeholder="Last Name">
+                </form>
+                <form style="margin-left:30px" >
+                    <lable>Age</lable><br>
+                    <input type="number" id="age" placeholder="18 - 100">
+                </form>
+            </div>
+
+            <div id="secondline">
+                <form >
+                    <lable>Mobile Number</lable><br>
+                    <input style="width:400px" type="text" id="mobile" placeholder=" XXXXX XXXXX">
+                </form>
+                <form style="margin-left:30px">
+                    <lable>Email</lable><br>
+                    <input style="width:400px" type="text" id="email" placeholder="XYZ@gmail.com">
+                </form>
+            </div>
+          
+            <div id="thirdline">
+                <form >
+                    <lable>Discription</lable><br>
+                    <textarea name="" id="discription" cols="30" rows="0"></textarea>
+                </form>
+            </div>
+
+            <div id="forthline">
+                <form >
+                    <lable>Password</lable><br>
+                    <input style="width:400px" type="password" id="password" placeholder="">
+                </form>
+                <form style="margin-left:30px">
+                    <lable>Confirm Password</lable><br>
+                    <input style="width:400px" type="password" id="confirmpassword" placeholder="">
+                </form>
+            </div>
+        <div id="buttons">
+            <button id="reset" type="reset" onclick="resetfunc()" > Reset</button>
+            <button id="submit" type="submit" onclick="submitfunc()" >Submit</button>
+        </div>
+         
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
